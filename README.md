@@ -1,5 +1,5 @@
-# vue-pku
-> vue-pku for vue.js, built in with PKU style compontents.
+# don-ui
+> don-ui is a Web UI Toolkit for vue.js
 
 vue-pku is an ui components library base on vuejs and awsome font , which helps you build your web application in pku style.
 
