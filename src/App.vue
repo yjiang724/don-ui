@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <headbar></headbar>
+    <pku-header logo="/static/img/logo.jpg" :methods="methods"></pku-header>
     <div id="wrapper">
       <sidebar :tag="tag"></sidebar>
       <router-view id="content"/>
@@ -16,7 +16,8 @@ export default {
   name: 'pkue',
   data () {
     return {
-      tag: ''
+      tag: '',
+      methods: ['没想好放什么']
     }
   },
   mounted () {
@@ -49,8 +50,7 @@ export default {
   color: #2c3e50;
 }
 #wrapper {
-  padding: 40px 0;
-  max-width: 1120px;
+  max-width: 1080px;
   width: 96%;
   margin: 0 auto;
 }
@@ -136,8 +136,8 @@ export default {
   vertical-align: middle;
 }
 #content {
-  padding-top: 120px;
-  padding-left: 240px;
+  padding-top: 100px;
+  padding-left: 260px;
   text-align: left;
 }
 @media (max-width: 768px) {

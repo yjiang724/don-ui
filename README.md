@@ -20,6 +20,30 @@ Vue.use(pkue)
 ```
 
 # Version
+- 0.8.6 beta 1/16/2018
+    - update `<pku-header>`
+        - 处理 safari 浏览器不兼容的问题
+- 0.8.5 beta 1/16/2018
+    - add compontent
+        - `<pku-tag>`
+    - update compontent
+        - `<pku-header>`
+            - 添加欢迎语
+            - 增加按钮组的回调方法
+            - 固定问题组标签的长度及显示方式
+- 0.8.4 beta 1/16/2018
+    - add compontent
+        - `<pku-header>`
+    - update compontent
+        - `<pku-input>`
+            - 取消最小宽度限制，改为继承父级元素
+            - 增加 `border` 变量，可隐藏输入框边框 
+        - `<pku-select>`
+            - 取消最小宽度限制，改为继承父级元素
+            - 增加 `border` 变量，可隐藏选择框边框
+            - 选择框可做多级按钮使用
+- 0.8.3 beta 1/16/2018
+    - update readme.md
 - 0.8.2 beta 1/16/2018
     - rename `pkue` to `don-ui`
 - 0.8.1 beta 1/15/2018

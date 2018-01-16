@@ -54,7 +54,9 @@ export default {
             {name: 'Cascader 级联选择器', key: 'cascader', show: false},
             {name: 'Switch 开关', key: 'switch', show: false},
             {name: 'Data', key: '', label: true, show: false},
+            {name: 'Tag 标签', key: 'tag', show: false},
             {name: 'Navigation', key: '', label: true, show: false},
+            {name: 'Header 导航', key: 'header', show: false},
             {name: 'Banner 横幅', key: 'banner', show: false},
             {name: 'Breadcrumb 面包屑', key: 'breadcrumb', show: false},
             {name: 'Message', key: '', label: true, show: false},
@@ -99,7 +101,7 @@ export default {
   top: 0;
   bottom: 0;
   margin-right: 20px;
-  margin-top: 160px;
+  margin-top: 100px;
   padding-bottom: 150px;
   text-align: left;
   overflow-y: scroll;

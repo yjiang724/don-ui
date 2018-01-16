@@ -7,6 +7,7 @@ import Breadcrumb from '@/components/breadcrumb'
 import Checkbox from '@/components/checkbox'
 import Cascader from '@/components/cascader'
 import Dialog from '@/components/dialog'
+import Header from '@/components/header'
 import Loading from '@/components/loading'
 import Messagebox from '@/components/messagebox'
 import Notice from '@/components/notice'
@@ -14,6 +15,7 @@ import Pagination from '@/components/pagination'
 import Select from '@/components/select'
 import Switch from '@/components/switch'
 import Table from '@/components/table'
+import Tag from '@/components/tag'
 
 Vue.use(Router)
 
@@ -89,6 +91,16 @@ export default new Router({
       path: '/cascader',
       name: 'cascader',
       component: Cascader
+    },
+    {
+      path: '/tag',
+      name: 'tag',
+      component: Tag
+    },
+    {
+      path: '/header',
+      name: 'header',
+      component: Header
     }
   ]
 })

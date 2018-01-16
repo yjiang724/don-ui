@@ -1,6 +1,9 @@
 <template>
   <div class="home">
     <pku-breadcrumb style="padding: 0px; font-size: 16px;" :value="menu"></pku-breadcrumb>
+    <div style="padding: 30px 0px 0; font-weight: 700;">
+    日志没时间打理，点击<a href="https://github.com/yjiang724/vue-pku" target="_BLANK" style="text-decoration: none; color: #409eff; padding: 0 10px;">传送门</a>
+    </div>
     <ul>
       <li v-for="item in data">
         <span>{{item.title}}</span>
