@@ -1,30 +1,36 @@
-# doncheck
+# don-qa
 
-> A Vue.js project
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Version
+- 0.1.0 beta 1/15/2018
+    - add compontent
+        - `<don-qa-question-a>`
+            - 创建问卷提醒 A
+        - `<don-qa-question-b>`
+            - 创建问卷提醒 B
+        - `<don-qa-question-c>`
+            - 创建问卷提醒 C
+        - `<don-qa-question-d>`
+            - 创建问卷提醒 D
+        - `<don-qa-question-e>`
+            - 创建问卷提醒 E
+        - `<don-qa-question-f>`
+            - 创建问卷提醒 F
+        - `<don-qa-question-g>`
+            - 创建问卷提醒 G
+        - `<don-qa-question-h>`
+            - 创建问卷提醒 H
+        - `<don-qa-question-i>`
+            - 创建问卷提醒 I
+        - `<don-qa-question-j>`
+            - 创建问卷提醒 J
+        - `<don-qa-question-logic>`
+            - 创建逻辑跳转组件
+        - `<don-qa-question-wrap>`
+            - 创建问题封装组件
+    - update compontent
+        - `<don-qa-init>`
+            - 增加重置按钮
+- 0.0.8 beta 1/12/2018
+    - add compontent
+        - `<don-qa-init>`, 创建问卷组件
