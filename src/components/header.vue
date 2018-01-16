@@ -12,7 +12,7 @@
     </div>
     <div class="part">
         <h2>插入图片横幅</h2>
-        <div class="codeblock">
+        <div class="codeblock codeblock1">
           <pku-header :logo="logo" :methods="list"></pku-header>
         </div>
     </div>
@@ -84,5 +84,8 @@ export default {
 }
 .codeblock1 >>> .user {
   z-index: 1500;
+}
+.codeblock1 >>> .nav .menu li:nth-child(4) {
+  display: none;
 }
 </style>
