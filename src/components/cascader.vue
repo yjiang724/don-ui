@@ -87,7 +87,7 @@ export default {
       disabled: true,
       file: true,
       accept: 'text/csv',
-      url: 'http://pkue.jiangyu.me/cas.php'
+      url: 'http://don-ui.jiangyu.me/cas.php'
     }
   },
   methods: {
