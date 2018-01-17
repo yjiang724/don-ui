@@ -11,7 +11,8 @@
         <div style="width:200px">
           <pku-cascader
             :async="false"
-            :url="url"></pku-cascader>
+            :url="url"
+            :list="options"></pku-cascader>
         </div>
       </div>
     </div>
@@ -82,6 +83,7 @@ export default {
   name: 'pkue-cascader',
   data () {
     return {
+      options: [{'label': 'menu1', 'child': [{'label': 'menu11'}, {'label': 'menu13'}, {'label': 'menu12'}]}, {'label': 'menu3'}, {'label': 'menu2'}],
       disabled: true,
       file: true,
       accept: 'text/csv',
