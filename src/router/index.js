@@ -7,6 +7,7 @@ import Breadcrumb from '@/components/breadcrumb'
 import Checkbox from '@/components/checkbox'
 import Cascader from '@/components/cascader'
 import Dialog from '@/components/dialog'
+import Dropdown from '@/components/dropdown'
 import Header from '@/components/header'
 import Loading from '@/components/loading'
 import Messagebox from '@/components/messagebox'
@@ -101,6 +102,11 @@ export default new Router({
       path: '/header',
       name: 'header',
       component: Header
+    },
+    {
+      path: '/dropdown',
+      name: 'dropdown',
+      component: Dropdown
     }
   ]
 })

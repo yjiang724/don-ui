@@ -46,6 +46,7 @@ export default {
           data: [
             {name: 'Basic', key: '', label: true, show: false},
             {name: 'Button 按钮', key: 'button', show: false},
+            {name: 'Dropdown 按钮组', key: 'dropdown', show: false},
             {name: 'Form', key: '', label: true, show: false},
             {name: 'Table 表格', key: 'table', show: false},
             {name: 'Pagination 分页', key: 'pagination', show: false},
